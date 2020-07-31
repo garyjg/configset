@@ -4,6 +4,19 @@
 
 #include "ConfigItem_impl.h"
 
+/**
+
+This source module actually defines the implementations these types:
+
+ ConfigSet
+ ConfigItem
+ ConfigItemT<bool>
+ ConfigItemT<int>
+ ConfigItemT<float>,
+ ConfigItemT<std::string>
+
+ **/
+
 ConfigSet::
 ConfigSet()
 {}
